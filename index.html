@@ -1,0 +1,99 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    />
+
+    <title>Project Mimic</title>
+
+
+    <meta
+        name="description"
+        content="Project Mimic - Multiplayer Horror Game"
+    />
+
+    <meta
+        name="theme-color"
+        content="#000000"
+    />
+
+    <link
+        rel="icon"
+        type="image/png"
+        href="/favicon.png"
+    />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: #000;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        canvas {
+            display: block;
+        }
+
+        #loading-screen {
+            position: fixed;
+            inset: 0;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            background: #000;
+            color: white;
+
+            z-index: 9999;
+
+            transition: opacity .5s ease;
+        }
+
+        #loading-title {
+            font-size: 48px;
+            font-weight: bold;
+            letter-spacing: 6px;
+            margin-bottom: 20px;
+        }
+
+        #loading-text {
+            opacity: .75;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="loading-screen">
+
+        <div id="loading-title">
+            PROJECT MIMIC
+        </div>
+
+        <div id="loading-text">
+            Loading...
+        </div>
+
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+
+</body>
+</html>
+```
