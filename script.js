@@ -61,7 +61,7 @@ function startGame() {
 
         */
 
-        alert("Game loading...");
+        window.location.href = "game.html";
 
         document.body.style.opacity = "1";
 
