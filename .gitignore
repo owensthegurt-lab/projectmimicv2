@@ -1,0 +1,95 @@
+```gitignore
+# =========================
+# Dependencies
+# =========================
+
+node_modules/
+
+# =========================
+# Production Builds
+# =========================
+
+dist/
+build/
+
+# =========================
+# Logs
+# =========================
+
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# =========================
+# Environment Files
+# =========================
+
+.env
+.env.local
+.env.production
+.env.development
+
+# =========================
+# Operating System
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# =========================
+# JetBrains
+# =========================
+
+.idea/
+
+# =========================
+# TypeScript
+# =========================
+
+*.tsbuildinfo
+
+# =========================
+# Vite
+# =========================
+
+.vite/
+
+# =========================
+# Cache
+# =========================
+
+.cache/
+temp/
+tmp/
+
+# =========================
+# Coverage
+# =========================
+
+coverage/
+
+# =========================
+# Local Assets (Optional)
+# Uncomment if needed
+# =========================
+
+# Blender Files
+# *.blend
+# *.blend1
+
+# PSD Files
+# *.psd
+
+# Backup Files
+# *.bak
+```
